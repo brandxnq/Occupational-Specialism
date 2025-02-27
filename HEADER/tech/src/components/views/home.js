@@ -1,10 +1,14 @@
 import React from "react";
 import AppHero from "../home/hero";
+import AppAbout from "../home/about";
+import AppFeature from "../home/feature";
 
-function Home(){
+function AppHome(){
     return(
-        <AppHero/>
+        <><AppHero />
+        <AppAbout />
+        <AppFeature /></>
     )
 }
 
-export default Home;
+export default AppHome;
